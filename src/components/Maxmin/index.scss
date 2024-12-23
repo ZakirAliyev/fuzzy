@@ -1,0 +1,62 @@
+#fuzzy-maxmin {
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+
+    &:focus {
+      border-color: #007bff;
+      outline: none;
+      box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+
+    &:active {
+      background-color: #004080;
+    }
+  }
+
+  input {
+    width: calc(50% - 10px);
+    display: inline-block;
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+}
+
+h3 {
+  margin: 20px 0;
+  font-size: 24px;
+  width: 100%;
+  text-align: center;
+  color: #454545;
+  font-weight: 500;
+}
